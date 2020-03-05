@@ -1,0 +1,47 @@
+app-login {
+    
+}
+
+$white-color: #fff;
+$height100: 100%;
+
+ion-grid {
+    width:100%;
+    height: $height100;
+    background: #dfdfdf;
+}
+
+ion-row {
+    height: $height100;
+}
+
+ion-col {
+    border: 1px solid #488aff;
+    background: $white-color;
+}
+
+ion-button {
+    font-weight: 300;
+}
+
+@media (min-width: 240px) and (max-width: 768px) {
+    ion-grid {
+        background: $white-color;
+    }
+    ion-col {
+        border: none;
+    }
+}
+ion-icon {
+    font-size : 80px;
+ 
+ }
+ .text-dark{
+     text-decoration: underline;
+ }
+ .border{
+     border-radius:  20px 20px 20px 20px;
+     -webkit-box-shadow: 8px 7px 5px 2px rgba(0,0,0,0.35);
+-moz-box-shadow: 8px 7px 5px 2px rgba(0,0,0,0.35);
+box-shadow: 8px 7px 5px 2px rgba(0,0,0,0.35);
+ }

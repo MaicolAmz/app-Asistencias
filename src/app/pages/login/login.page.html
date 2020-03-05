@@ -1,0 +1,48 @@
+<ion-grid>
+	<ion-row justify-content-center>
+		<ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+			<form class="border border-success mt-5 p-3">
+				<div text-center>
+					<ion-icon name="person-add-outline" color="success" class="col-11 mt-3"></ion-icon>
+				</div>
+				<div class="mt-5">
+					<div class="my-1">
+						<label class="sr-only" for="inlineFormInputGroupUsername">Usuario</label>
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<div
+									class="input-group-text bg-light border-top-0 border-right-0 border-left-0 border-success">
+									<ion-icon name="person-outline" size="small"></ion-icon>
+								</div>
+							</div>
+							<input type="text"
+								class="form-control border-top-0 border-right-0 border-left-0 border-success"
+								id="inlineFormInputGroupUsername" placeholder="Username">
+						</div>
+					</div>
+					<div class="my-1">
+						<label class="sr-only" for="inlineFormInputGroupUsername">Password</label>
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<div
+									class="input-group-text bg-light border-top-0 border-right-0 border-left-0 border-success">
+									<ion-icon name="key-outline" size="small"></ion-icon>
+								</div>
+							</div>
+							<input type="text"
+								class="form-control border-top-0 border-right-0 border-left-0 border-success"
+								id="inlineFormInputGroupPassword" placeholder="Password">
+						</div>
+					</div>
+				</div>
+
+				<div class="mt-3">
+					<ion-button class="col-12"  color="success">Ingresar</ion-button>
+				</div>
+				<div class="col-12 text-center mt-2">
+					<a class="text-dark " routerLink="/register">Registrar</a>
+				</div>
+			</form>
+		</ion-col>
+	</ion-row>
+</ion-grid>
